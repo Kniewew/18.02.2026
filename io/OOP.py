@@ -1,0 +1,1 @@
+grades = [    [5, 4, 5],  # Петя    [3, 4, 3],  # Маша    [5, 5, 4],  # Вася]names = ["Петя", "Маша", "Вася"]print("Успеваемость учеников:\n")for i in range(len(grades)):    average = sum(grades[i]) / len(grades[i])    print(f"{names[i]}: {grades[i]} -> средний балл: {average:.1f}")
